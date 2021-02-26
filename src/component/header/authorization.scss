@@ -1,0 +1,25 @@
+$background:  linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);;
+$color: #BC9CFF;
+
+.Authorization-conteiner{
+  button{
+    background: #FFFFFF;
+    border: 2px solid #BC9CFF;
+    color: $color;
+    border-radius: 22px;
+    outline: none;
+    &:hover{
+      background: $background;
+      color: #FFFFFF;
+    }
+  }
+  .inAccount{
+    width: 87px;
+    height: 34px;
+  }
+  .registrate{
+    margin-left: 20px;
+    width: 196px;
+    height: 34px;
+  }
+}
