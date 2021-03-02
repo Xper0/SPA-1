@@ -1,0 +1,27 @@
+
+  .modal_wrapper{
+    position: fixed;
+    background: rgba(0,0,0,.5);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 1s;
+    &.active{
+      opacity: 1;
+    }
+    .modal_wrapper_body{
+      min-width: 300px;
+      min-height: 400px;
+      background: #FFFFFF;
+      margin: auto;
+      border-radius: 20px;
+    }
+  }
+
+
+
