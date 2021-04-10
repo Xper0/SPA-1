@@ -1,0 +1,14 @@
+.Search{
+  width: 100%;
+}
+.Nav-filter{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  .Search__nav{
+    width: 30%;
+  }
+  .Search__cards{
+    width: auto;
+  }
+}

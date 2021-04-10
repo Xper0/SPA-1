@@ -8,11 +8,19 @@
   box-sizing: border-box;
 
 
-  .Home-conteiner-find{
+  .Home__conteiner-find{
     width: 380px;
     height: 374px;
     background: #FFFFFF;
     margin: 70px 187px;
 
   }
+  .Home__menu{
+    display: none;
+  }
+  .Home__menu_active{
+    display: block;
+  }
+
 }
+
